@@ -1,0 +1,5 @@
+<apex:component controller="RE_DashboardController">
+    <footer style="text-align: center; padding: 15px 0; background: #f3f4f6; color: #6b7280; margin-top: 30px; font-size: 14px;">
+        © {!currentYear} RealEstate CRM. All rights reserved.
+    </footer>
+</apex:component>
