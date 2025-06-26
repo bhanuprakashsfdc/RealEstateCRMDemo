@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <description>Property location coordinates and address</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <inlineHelpText>Enter the property location details</inlineHelpText>
+    <label>Location</label>
+    <required>true</required>
+    <scale>6</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>

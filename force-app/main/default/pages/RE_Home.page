@@ -1,0 +1,5 @@
+<apex:page showHeader="false" sidebar="false" lightningStylesheets="false" standardStylesheets="false">
+	<h1>
+        RE _Home
+    </h1>
+</apex:page>
