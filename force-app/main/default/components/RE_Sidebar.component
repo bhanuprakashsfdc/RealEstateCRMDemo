@@ -1,0 +1,30 @@
+<apex:component >
+
+    <style>
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background: #1f2937;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px 0;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background: #374151;
+        }
+    </style>
+
+    <div class="sidebar">
+        <h3>RealEstate CRM</h3>
+        <a href="/apex/RE_Dashboard">Dashboard</a>
+        <a href="/apex/RE_PropertyList">Properties</a>
+        <a href="/apex/RE_LeadsList">Leads</a>
+    </div>
+
+</apex:component>

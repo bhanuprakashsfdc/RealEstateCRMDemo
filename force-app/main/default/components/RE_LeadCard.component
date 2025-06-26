@@ -1,0 +1,9 @@
+<apex:component >
+    <apex:attribute name="lead" type="Lead" description="Lead Record" required="true" />
+
+    <div style="border:1px solid #ddd; padding:10px; margin:5px;">
+        <h4>{!lead.Name}</h4>
+        <p>Email: {!lead.Email}</p>
+        <p>Status: {!lead.Status}</p>
+    </div>
+</apex:component>
