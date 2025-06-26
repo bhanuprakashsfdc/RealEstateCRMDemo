@@ -1,0 +1,9 @@
+<apex:component controller="RE_PropertyHelper">
+    <apex:attribute name="property" type="RE_Property__c" description="Property Record" required="true" />
+
+    <div style="border:1px solid #ddd; padding:10px; margin:5px;">
+        <h4>{!property.Name}</h4>
+        <p>Location: {!property.City__c }</p>
+        <p>Value: ${!property.Price__c}</p>
+    </div>
+</apex:component>
