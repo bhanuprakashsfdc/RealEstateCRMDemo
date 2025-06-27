@@ -1,0 +1,26 @@
+.summary-tile {
+    background-color: #1D4ED8;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    text-align: center;
+}
+
+.summary-tile.blue { background-color: #1D4ED8; }
+.summary-tile.green { background-color: #16A34A; }
+.summary-tile.orange { background-color: #F97316; }
+.summary-tile.purple { background-color: #9333EA; }
+
+.label {
+    font-size: 0.9rem;
+}
+
+.value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
