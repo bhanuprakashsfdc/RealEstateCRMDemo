@@ -1,0 +1,14 @@
+<template>
+    <div class="list-container">
+        <h2>Recent Leads</h2>
+        <template if:true={leads}>
+            <template for:each={leads} for:item="lead">
+                <div key={lead.id} class="list-item">
+                    <strong>{lead.name}</strong>
+                    <small>{lead.email}</small>
+                    <span class={lead.statusClass}>{lead.status}</span>
+                </div>
+            </template>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,14 @@
+<template>
+    <div class="list-container">
+        <h2>Recent Properties</h2>
+        <template if:true={properties}>
+            <template for:each={properties} for:item="prop">
+                <div key={prop.id} class="list-item">
+                    <strong>{prop.name}</strong>
+                    <small>{prop.city}, {prop.state}</small>
+                    <span>${prop.price}K</span>
+                </div>
+            </template>
+        </template>
+    </div>
+</template>

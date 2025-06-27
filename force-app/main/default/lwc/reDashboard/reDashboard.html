@@ -1,0 +1,34 @@
+<template>
+    <div class="dashboard-container">
+        <div class="layout">
+            
+            <!-- Sidebar Navigation -->
+            <div class="sidebar">
+                <c-re-sidebar></c-re-sidebar>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="main-content">
+                
+                <!-- Welcome Header -->
+                <c-re-header></c-re-header>
+
+                <!-- Summary Cards -->
+                <div class="summary-section">
+                    <c-re-summary-card label="Total Properties" value={totalProperties} icon="standard:account" color="blue"></c-re-summary-card>
+                    <c-re-summary-card label="Portfolio Value" value={portfolioValue} icon="utility:moneybag" color="green"></c-re-summary-card>
+                    <c-re-summary-card label="Active Leads" value={activeLeads} icon="standard:lead" color="orange"></c-re-summary-card>
+                    <c-re-summary-card label="Closed Deals" value={closedDeals} icon="utility:check" color="purple"></c-re-summary-card>
+                </div>
+
+                <!-- Properties & Leads Sections -->
+                <div class="list-sections">
+                    <c-re-properties-list></c-re-properties-list>
+                    <c-re-leads-list></c-re-leads-list>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</template>

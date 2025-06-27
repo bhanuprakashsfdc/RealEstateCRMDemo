@@ -1,0 +1,22 @@
+.header-container {
+    padding: 1rem 0;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.header-container h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.header-container p {
+    font-size: 0.95rem;
+    color: #6B7280;
+}
+
+/* Mobile spacing adjustment */
+@media (max-width: 768px) {
+    .header-container {
+        text-align: center;
+    }
+}

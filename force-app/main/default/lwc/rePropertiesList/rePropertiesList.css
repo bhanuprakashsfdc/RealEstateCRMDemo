@@ -1,0 +1,34 @@
+.list-container {
+    background: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.list-container h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.item-info {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+}
+
+.item-info strong {
+    display: block;
+    font-weight: bold;
+}
+
+.item-info small {
+    color: #6B7280;
+}
